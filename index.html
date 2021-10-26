@@ -5,10 +5,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Revisiting JS</title>
+  
 </head>
 <body>
   <h1>Selectors</h1>
   <button>Hello</button>
-  <script src="./day-1/selectors.js"></script>
+  <button class="bg-red">Bg red</button>
+  <button id="test">#Test</button>
+  <button id="test2" class="click-me">#Test2</button>
+  <button class="bg-red" data-button="yes">Data yes</button>
+  
+  <form>
+    <div>
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username">
+    </div>
+  
+    <div>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password">
+    </div>
+  
+    <div>
+      <label for="show-password">
+        <input type="checkbox" name="show-passwords" id="show-password">
+        Show password
+      </label>
+    </div>
+  
+    <p>
+      <button type="submit">Log In</button>
+    </p>
+  </form>
+
+  <script src="./js/selectors.js"></script>
+  <script src="./js/events.js"></script>
+  <script src="./js/get-set.js"></script>
+  <script src="./js/toggle-password.js"></script>
+  <script src="./js/loops.js"></script>
 </body>
 </html>
